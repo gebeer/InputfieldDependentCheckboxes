@@ -1,0 +1,9 @@
+.InputfieldDependentCheckboxes ul li label {
+	display: inline-block;
+	white-space: nowrap;
+	vertical-align: top;
+}
+.InputfieldDependentCheckboxes table label input, 
+.InputfieldDependentCheckboxes li input {
+	margin-right: 0.5em;
+}
