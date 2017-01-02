@@ -24,10 +24,11 @@ A real world example:
 There are different types of instructors. Each instructor type can have multiple different certifications.
 For this to happen, we need 2 page fields (multiple):
 
-a) instructor_types: lists pages with template 'instructor_type'
-b) certifications: lists pages with template 'certification'
+A) instructor_types: lists pages with template 'instructor_type'
 
-The certification template needs to have the instructor_types page field to assign one or more instructor_type to a certification.
+B) certifications: lists pages with template 'certification'
+
+The certification template needs to have the instructor_types page field to assign one or more instructor_types to a certification.
 
 ###Setup (link checkbox fields)
 Edit your page field a and go to the 'Input' Tab. Under 'Input field type' choose 'DependentCheckboxes'. Hit save. Now under 'Choose the target checkboxes field' choose the name of your field b. Hit save again.
