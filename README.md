@@ -20,10 +20,13 @@ This inputfield extends that standard checkboxes of page fields. Therefore you n
 You need to have at least 2 fields of type page that have 'Checkboxes' defined as Input field type and live on the same template.
 
 A real world example:
+
 There are different types of instructors. Each instructor type can have multiple different certifications.
 For this to happen, we need 2 page fields (multiple):
+
 a) instructor_types: lists pages with template 'instructor_type'
 b) certifications: lists pages with template 'certification'
+
 The certification template needs to have the instructor_types page field to assign one or more instructor_type to a certification.
 
 ###Setup (link checkbox fields)
