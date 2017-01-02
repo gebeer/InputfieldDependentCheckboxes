@@ -31,8 +31,10 @@ B) certifications: lists pages with template 'certification'
 The certification template needs to have the instructor_types page field to assign one or more instructor_types to a certification.
 
 ###Setup (link checkbox fields)
-Edit your page field a and go to the 'Input' Tab. Under 'Input field type' choose 'DependentCheckboxes'. Hit save. Now under 'Choose the target checkboxes field' choose the name of your field b. Hit save again.
+1. Edit your page field a and go to the 'Input' Tab. Under 'Input field type' choose 'DependentCheckboxes'. Hit save. Now under 'Choose the target checkboxes field' choose the name of your field b. Hit save again.
 ![Screenshot of field setting](/images/setup-1.png)
+2. In your page field b make sure to choose a template under 'Input' Tab under 'Selectable Pages'->'Template of selectable page(s)'.
+![Screenshot of field setting](/images/setup-2.png)
 
 
 Your fields should be setup. If you now edit a page that contains the 2 fields, the dependent checkboxes should be working. 
