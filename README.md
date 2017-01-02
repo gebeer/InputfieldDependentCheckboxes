@@ -2,7 +2,7 @@
 **This module is in early stage of development - use at your own risk**
 
 ##An Inputfield for ProcessWire admin interface that handles the display of dependent checkboxes in page fields
-Sometimes we need checkboxes to depend on other checkboxes in our page edit forms. This module adds this functionality for 2 or more checkbox fields to standard page field checkboxes.
+Sometimes we need checkboxes to depend on other checkboxes in our page edit forms. This module adds this functionality to standard page field checkboxes for 2 or more checkbox fields.
 ![Screenshot of inputfield in action](/images/demo-1.gif)
 
 
