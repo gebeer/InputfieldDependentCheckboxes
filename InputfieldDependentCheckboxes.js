@@ -25,7 +25,6 @@ var InputfieldDependentCheckboxes = {
 			target.data('idcbshowfor', []);
 			target.on('idcbchange', function(){
 				self.showHide(target);
-				// $(this).trigger('change');
 			});
 		});
 
